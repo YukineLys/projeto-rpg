@@ -2,6 +2,7 @@ h1 {
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
+    text-align: center;
 }
 
 button {
@@ -24,17 +25,8 @@ body {
     background-color: darkgray;
 }
 
-.a {
-    background-color: darkgray;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.b {
-    background-color: darkgray;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.c {
-    background-color: darkgray;
-    font-family: 'Courier New', Courier, monospace;
+.amendoim {
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }

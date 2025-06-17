@@ -39,11 +39,3 @@ botaoRolarD50.addEventListener('click', () => {
     resultadoDivD50.innerHTML = `<p>${resultadoD50}</p>`;
 })
 
-
-
-
-
-
-
-
-

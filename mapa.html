@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mapa</title>
+</head>
+<body>
+    
+    <h1>Em construção!</h1>
+
+    
+
+    <input type="file" id="uploadButton" accept="image/*">
+    
+    <script>
+      const uploadButton = document.getElementById('uploadButton');
+    
+      uploadButton.addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        if (file) {
+          console.log('Arquivo selecionado:', file);
+    
+          const reader = new FileReader();
+          reader.onload = function(e) {
+            const img = document.createElement('img');
+            img.src = e.target.result;
+            document.body.appendChild(img);
+          }
+          reader.readAsDataURL(file);
+        }
+      });
+    </script>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
