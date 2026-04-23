@@ -38,4 +38,3 @@ botaoRolarD50.addEventListener('click', () => {
     const resultadoD50 = rolarDadoD50();
     resultadoDivD50.innerHTML = `<p>${resultadoD50}</p>`;
 })
-

@@ -8,7 +8,7 @@ h1 {
 button {
     font-family: 'Courier New', Courier, monospace;
     color: black;
-    background-color:antiquewhite;
+    background-color: gray;
 }
 
 .dados {
@@ -22,7 +22,7 @@ textarea{
 }
 
 body {
-    background-color: darkgray;
+    background-color: black;
 }
 
 .amendoim {
@@ -30,3 +30,5 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
